@@ -1,18 +1,24 @@
 # Gradle
 .gradle/
 build/
-!*/build.gradle
-!*/build.gradle.kts
+out/
+!gradle/wrapper/gradle-wrapper.jar
 
 # Java
 *.class
+*.log
+*.jar
+*.war
+*.ear
 
-# IDEs
+# IntelliJ IDEA
 .idea/
 *.iml
-*.ipr
 *.iws
-*.vscode/
+*.ipr
+
+# VS Code
+.vscode/
 
 # OS
 .DS_Store
@@ -20,14 +26,6 @@ Thumbs.db
 
 # Logs
 *.log
-
-# JARs
-*.jar
-*.war
-*.ear
-
-# Generated
-out/
 
 # Misc
 *.swp

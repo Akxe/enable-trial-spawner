@@ -3,23 +3,22 @@
   "id": "enable_trial_spawner",
   "version": "${version}",
   "name": "Enable trial spawner",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Allows trial spawners to spawn mobs even if the doMobSpawning gamerule is set to false, matching vanilla mob spawner logic.",
   "authors": [
-    "Me!"
+    "Akxe"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Akxe/enable-trial-spawners"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/enable_trial_spawner/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.akxe.fabric.ExampleModFabric"
+      "com.akxe.enable_trial_spawner.fabric.EnableTrailSpawnerModFabric"
     ],
     "client": [
-      "com.akxe.fabric.client.ExampleModFabricClient"
+      "com.akxe.enable_trial_spawner.fabric.client.EnableTrailSpawnerModFabricClient"
     ]
   },
   "mixins": [
@@ -27,9 +26,9 @@
   ],
   "depends": {
     "fabricloader": ">=0.17.0",
-    "minecraft": "~1.20.1",
-    "java": ">=17",
-    "architectury": ">=9.2.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
     "fabric-api": "*"
   },
   "suggests": {

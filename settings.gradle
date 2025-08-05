@@ -11,4 +11,4 @@ rootProject.name = 'enable_trial_spawner'
 
 include 'common'
 include 'fabric'
-include 'quilt'
+include 'neoforge'
