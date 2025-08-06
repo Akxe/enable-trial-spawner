@@ -2,13 +2,15 @@
   "schemaVersion": 1,
   "id": "enable_trial_spawner",
   "version": "${version}",
-  "name": "Enable trial spawner",
-  "description": "Allows trial spawners to spawn mobs even if the doMobSpawning gamerule is set to false, matching vanilla mob spawner logic.",
+  "name": "Enable Trial Spawner",
+  "description": "Fixes MC-266487: Allows trial spawners to spawn mobs even when doMobSpawning gamerule is disabled, matching vanilla spawner behavior. Server-side only mod that works on both Fabric and NeoForge.",
   "authors": [
     "Akxe"
   ],
   "contact": {
-    "sources": "https://github.com/Akxe/enable-trial-spawners"
+    "homepage": "https://github.com/Akxe/enable-trial-spawner",
+    "sources": "https://github.com/Akxe/enable-trial-spawner",
+    "issues": "https://github.com/Akxe/enable-trial-spawner/issues"
   },
   "license": "MIT",
   "icon": "assets/enable_trial_spawner/icon.png",
@@ -31,7 +33,5 @@
     "architectury": ">=13.0.8",
     "fabric-api": "*"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": {}
 }

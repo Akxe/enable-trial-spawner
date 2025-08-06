@@ -1,17 +1,23 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/Akxe/enable-trial-spawner/issues"
 license = "MIT"
 
 [[mods]]
 modId = "enable_trial_spawner"
 version = "${version}"
-displayName = "Enable trial spawner"
+displayName = "Enable Trial Spawner"
 authors = "Akxe"
 description = '''
-Allows trial spawners to spawn mobs even if the doMobSpawning gamerule is set to false, matching vanilla mob spawner logic.
+Fixes MC-266487: Allows trial spawners to spawn mobs even when doMobSpawning gamerule is disabled, matching vanilla spawner behavior. This server-side only mod ensures trial spawners work consistently regardless of the doMobSpawning setting, bringing their behavior in line with regular mob spawners.
+
+Features:
+- Server-only mod (clients don't need it)
+- Works on both Fabric and NeoForge
+- Fixes vanilla bug MC-266487
+- No configuration needed
 '''
-#logoFile = "assets/enable_trial_spawner/icon.png"
+logoFile = "assets/enable_trial_spawner/icon.png"
 
 [[dependencies.enable_trial_spawner]]
 modId = "neoforge"
