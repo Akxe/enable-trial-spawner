@@ -3,9 +3,9 @@
   "package": "com.akxe.enable_trial_spawner.mixin",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
-  "client": [
-  ],
+  "client": [],
   "mixins": [
+    "TrialSpawnerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
