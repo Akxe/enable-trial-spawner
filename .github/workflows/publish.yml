@@ -30,7 +30,7 @@ jobs:
     - name: Publish to Modrinth (Fabric)
       uses: Kir-Antipov/mc-publish@v3.3
       with:
-        modrinth-id: enable-trial-spawners
+        modrinth-id: h0MqxOhk
         modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
         files: fabric/build/libs/*[0-9].jar
@@ -50,7 +50,7 @@ jobs:
     - name: Publish to Modrinth (NeoForge)
       uses: Kir-Antipov/mc-publish@v3.3
       with:
-        modrinth-id: enable-trial-spawners
+        modrinth-id: h0MqxOhk
         modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
         files: neoforge/build/libs/*[0-9].jar
