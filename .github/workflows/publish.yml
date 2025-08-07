@@ -39,8 +39,7 @@ jobs:
         version-type: release
 
         loaders: fabric
-        game-versions: |
-          1.21.1
+        game-versions: ">=1.21.1"
         dependencies: |
           fabric-api@>=0.116.4 | depends
           architectury-api@>=13.0.8 | depends
@@ -59,8 +58,7 @@ jobs:
         version-type: release
 
         loaders: neoforge
-        game-versions: |
-          1.21.1
+        game-versions: ">=1.21.1"
         dependencies: |
           architectury-api@>=13.0.8 | depends
 
