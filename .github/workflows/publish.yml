@@ -30,7 +30,7 @@ jobs:
     - name: Publish to Modrinth (Fabric)
       uses: Kir-Antipov/mc-publish@v3.3
       with:
-        modrinth-id: YOUR_PROJECT_ID_HERE
+        modrinth-id: enable-trial-spawners
         modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
         files: fabric/build/libs/*[0-9].jar
@@ -42,15 +42,15 @@ jobs:
         game-versions: |
           1.21.1
         dependencies: |
-          fabric-api | depends | *
-          architectury-api | depends | *
+          fabric-api@>=0.116.4 | depends
+          architectury-api@>=13.0.8 | depends
 
         changelog-file: CHANGELOG.md
 
     - name: Publish to Modrinth (NeoForge)
       uses: Kir-Antipov/mc-publish@v3.3
       with:
-        modrinth-id: YOUR_PROJECT_ID_HERE
+        modrinth-id: enable-trial-spawners
         modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
         files: neoforge/build/libs/*[0-9].jar
@@ -62,6 +62,6 @@ jobs:
         game-versions: |
           1.21.1
         dependencies: |
-          architectury-api | depends | *
+          architectury-api@>=13.0.8 | depends
 
         changelog-file: CHANGELOG.md

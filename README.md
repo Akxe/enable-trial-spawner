@@ -28,7 +28,7 @@ This mod allows trial spawners to spawn mobs even when the `doMobSpawning` gamer
 
 ## 📦 Installation
 
-1. Download the latest release from [GitHub Releases](https://github.com/Akxe/enable-trial-spawner/releases) or [Modrinth](https://modrinth.com/mod/enable-trial-spawner)
+1. Download the latest release from [GitHub Releases](https://github.com/Akxe/enable-trial-spawner/releases) or [Modrinth](https://modrinth.com/mod/enable-trial-spawners)
 2. Place the `.jar` file in your server's `mods` folder
 3. Restart your server
 4. The mod will automatically fix trial spawner behavior
